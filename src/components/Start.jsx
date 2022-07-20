@@ -1,4 +1,5 @@
 import { useRef } from "react";
+import "./start.css";
 
 export default function Start({ setUsername }) {
   const inputRef = useRef();
@@ -18,4 +19,5 @@ export default function Start({ setUsername }) {
         Start Quiz
       </button>
     </div>
-  
+  );
+}

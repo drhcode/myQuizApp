@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "./quiz.css";
 import useSound from "use-sound";
 import play from "../sounds/play.mp3";
 import correct from "../sounds/correct.mp3";
@@ -54,7 +55,7 @@ export default function Quiz({
     });
   };
   return (
-    <div className="trivia">
+    <div className="quiz">
       <div className="question">{question?.question}</div>
       <div className="answers">
         {question?.answers.map((a) => (
