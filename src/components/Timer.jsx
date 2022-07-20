@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "./timer.css";
 
 export default function Timer({ setTimeOut, questionNumber }) {
   const [timer, setTimer] = useState(30);
@@ -12,7 +13,7 @@ export default function Timer({ setTimeOut, questionNumber }) {
   }, [timer, setTimeOut]);
 
   useEffect(() => {
-    setTimer(30);
+    setTimer(220);
   }, [questionNumber]);
   return timer;
 }

@@ -91,3 +91,17 @@
   right: 0;
   margin: auto;
 }
+
+@media (max-width: 400px) {
+  .answer {
+    width: 100%;
+    padding: 8px;
+    margin: 0 10px 10px 10px;
+    font-size: 12px;
+  }
+
+  .question {
+    font-size: 14px;
+    padding: 10px;
+  }
+}

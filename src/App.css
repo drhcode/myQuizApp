@@ -7,8 +7,8 @@
 
 .main {
   width: 75%;
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #020230),
-    url("https://i.ytimg.com/vi/yQbJRGs0fy8/maxresdefault.jpg") center;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0), #020230),
+    url("./assets/bg.jpg") center;
   display: flex;
   flex-direction: column;
 }
@@ -54,21 +54,64 @@
   position: relative;
 }
 
-.timer {
-  width: 70px;
-  height: 70px;
-  border-radius: 50%;
-  border: 5px solid white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  bottom: 10px;
-  left: 80px;
-  font-size: 30px;
-  font-weight: 700;
-}
-
 .bottom {
   height: 50%;
+}
+
+@media (max-width: 800px) {
+  .main {
+    width: 65%;
+  }
+  .pyramid {
+    width: 35%;
+  }
+  .moneyListItemNumber {
+    font-size: 15px;
+  }
+  .moneyListItemAmount {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .endText {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main {
+    width: 65%;
+  }
+  .pyramid {
+    width: 35%;
+  }
+  .moneyListItemNumber {
+    font-size: 12px;
+  }
+  .moneyListItemAmount {
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .endText {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 400px) {
+  .main {
+    width: 65%;
+  }
+  .pyramid {
+    width: 35%;
+  }
+  .moneyListItemNumber {
+    font-size: 10px;
+  }
+  .moneyListItemAmount {
+    font-size: 10px;
+    font-weight: 300;
+  }
+
+  .endText {
+    font-size: 12px;
+  }
 }

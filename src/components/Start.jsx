@@ -10,13 +10,9 @@ export default function Start({ setUsername }) {
 
   return (
     <div className="start">
-      <input
-        className="startInput"
-        placeholder="Enter Your Name"
-        ref={inputRef}
-      />
+      <input className="startInput" placeholder="Vendos Emrin" ref={inputRef} />
       <button className="startButton" onClick={handleClick}>
-        Start Quiz
+        Luaj
       </button>
     </div>
   );
